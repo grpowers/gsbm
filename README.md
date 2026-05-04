@@ -78,12 +78,13 @@ If a parlay involves multiple sports or has no clear primary: **Log on the MLB T
 ---
 
 ## 🛡️ PHASE 1: THE BURN-IN PROTOCOL (ACTIVE)
-**Target Window:** 14 Graded Days (Starts May 4, 2026; Ends approx. May 18, 2026)
-**Objective:** Stress-test AI logic against real-world variance.
+**Target Window:** 14 Graded Days (Starts May 4, 2026; Ends approx. May 18, 2026)  
+**Objective:** Stress-test AI logic against real-world variance and calibrate source weights.
 
 1. **Flat Betting Only:** Regardless of WCS, all live wagers are capped at **1.0 Unit ($1.00)**.
-2. **Shadow-Tracking:** Suggested units (2u/3u) may be logged in "Notes" for theoretical tracking, but "Wager" must reflect the 1u stake.
-3. **Transition:** After 14 graded days and 30+ picks, evaluate accuracy to move to Phase 2 (Variable Sizing).
+2. **The "Bootstrap" Override:** Since all sources default to 0.5 WCS (making a 2.0 score mathematically impossible), any play with **3-Source Consensus (Score: 1.5)** is a **Manual Go**.
+3. **Shadow-Tracking:** Suggested units (2u/3u) based on the "Theoretical Score" may be logged in "Notes" for back-testing, but the "Wager" column must reflect the 1u stake.
+4. **Transition:** After 14 graded days and 30+ picks, evaluate source win % to promote/demote weights and transition to Phase 2 (Variable Sizing).
 
 ---
 
